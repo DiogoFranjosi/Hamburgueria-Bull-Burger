@@ -1,106 +1,58 @@
-🍔 Bull Burger - Hambúrgueres Artesanais Premium
+ <div style="display: inline_block"><br>
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Bootstrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg">
+</div>
 
-Descrição do Projeto
+## 🍔 BULL BURGER - Hambúrgueres Artesanais Premium
 
-O Bull Burger é um projeto de landing page e cardápio digital desenvolvido para uma hamburgueria artesanal premium. O objetivo é apresentar o estabelecimento, seus diferenciais e, principalmente, oferecer um cardápio interativo e visualmente atraente, com um sistema de carrinho de compras integrado ao WhatsApp para finalização de pedidos.
+Bem-vindo ao **Bull Burger**, uma landing page e cardápio digital desenvolvida para uma hamburgueria artesanal premium. Este projeto apresenta o estabelecimento, seus diferenciais e oferece um cardápio interativo com sistema de pedidos integrado ao WhatsApp.
 
-Este projeto foi aprimorado para melhor atender às necessidades do cliente, incluindo a expansão e organização do cardápio e a melhoria da experiência do usuário na seção principal.
+## ✨ Funcionalidades Principais
 
-✨ Funcionalidades Principais
+- **Design Premium e Responsivo**: Interface moderna e totalmente adaptável a dispositivos móveis e tablets
+- **Cardápio Organizado por Categorias**: Hambúrgueres, Combos, Batatas e Bebidas com navegação intuitiva
+- **Sistema de Pedidos via WhatsApp**: Adicione itens ao carrinho e finalize pedidos diretamente pelo WhatsApp
+- **Carrinho de Compras Interativo**: Adicione, remova e ajuste quantidades de itens em tempo real
+- **Informações Completas**: Localização, telefone e horário de funcionamento facilmente acessíveis
 
-•
-Design Premium e Responsivo: Interface moderna, com cores e tipografia que remetem à qualidade e ao estilo artesanal. O layout é totalmente adaptável a dispositivos móveis e tablets.
+## 🛠️ Tecnologias Utilizadas
 
-•
-Cardápio Detalhado e Organizado: O cardápio foi reestruturado em categorias claras para facilitar a navegação do cliente:
+- **HTML5**: Estrutura semântica da página
+- **CSS3**: Estilização, layout e responsividade
+- **JavaScript (ES6+)**: Lógica do carrinho e integração com WhatsApp
+- **Bootstrap 5**: Framework CSS para grid e componentes
+- **Font Awesome**: Ícones para elementos visuais
+- **SweetAlert2**: Alertas e modais interativos
 
-•
-Hambúrgueres
+## 🚀 Como Executar
 
-•
-Combos
+1. Clone o repositório ou extraia os arquivos
+2. Abra o arquivo `index.html` em qualquer navegador moderno
+3. Navegue pelo cardápio e teste o sistema de pedidos
 
-•
-Batatas
+## 📁 Estrutura de Arquivos
 
-•
-Bebidas
-
-
-
-•
-Sistema de Pedidos via WhatsApp: Os clientes podem adicionar itens ao carrinho e finalizar o pedido diretamente pelo WhatsApp, com a mensagem de pedido formatada automaticamente, incluindo o endereço de entrega.
-
-•
-Animação Profissional: A imagem principal do hambúrguer na seção "Hero" foi otimizada, substituindo a animação de rotação por um efeito de escala sutil e moderno, conferindo um toque mais profissional à página.
-
-•
-Informações de Contato e Horário: Seções dedicadas com informações de localização, telefone e horário de funcionamento.
-
-🛠️ Tecnologias Utilizadas
-
-O projeto foi construído com tecnologias web padrão, garantindo leveza, velocidade e ampla compatibilidade:
-
-Tecnologia
-Descrição
-HTML5
-Estrutura semântica da página.
-CSS3
-Estilização e layout, incluindo responsividade.
-JavaScript (ES6+)
-Lógica de interação, carrinho de compras e integração com WhatsApp.
-Bootstrap 5
-Framework CSS para o sistema de grid e componentes básicos.
-Font Awesome
-Biblioteca de ícones para elementos visuais.
-SweetAlert2
-Biblioteca para alertas e modais interativos (usada para o carrinho e notificações).
+bull-burger/
+├── index.html # Página principal
+├── style.css # Estilos principais
+├── script.js # Lógica do carrinho e WhatsApp
+├── assets/ # Imagens e mídias
+│ ├── hamb-1.png
+│ ├── Combo1.png
+│ ├── Batata Simples.jpeg
+│ └── ...
+└── README.md # Documentação
 
 
-🚀 Como Executar o Projeto
+## 📝 Observações
 
-Para visualizar e testar o projeto localmente, siga os passos abaixo:
+- Projeto estático sem necessidade de servidor backend
+- Integração direta com WhatsApp para finalização de pedidos
+- Fácil personalização de cardápio e informações
+- Ideal para hamburguerias que desejam um cardápio digital profissional
 
-1.
-Clone o repositório (ou descompacte o arquivo ZIP fornecido) para o seu computador.
+## 👨‍💻 Autor
 
-2.
-Abra o arquivo index.html em qualquer navegador web moderno (Chrome, Firefox, Edge, etc.).
-
-O projeto é estático e não requer a instalação de um servidor web ou dependências de backend.
-
-📝 Estrutura de Arquivos
-
-A estrutura do projeto é simples e organizada:
-
-Plain Text
-
-
-bull-burger-redesign/
-├── assets/                 # Imagens e mídias do projeto
-│   ├── hamb-1.png
-│   ├── Combo1.png
-│   ├── Batata Simples.jpeg
-│   └── ...
-├── index.html              # Página principal (Landing Page e Cardápio)
-├── style.css               # Folha de estilos principal
-├── script.js               # Lógica do carrinho e integração com WhatsApp
-└── README.md               # Este arquivo
-
-
-⚙️ Personalização
-
-•
-Cardápio: Para adicionar ou modificar itens, edite o arquivo index.html nas seções de cardápio (<div class="menu-category">). Certifique-se de atualizar os atributos data-name e data-price nos botões "Adicionar ao Carrinho".
-
-•
-Lógica do Carrinho: O arquivo script.js contém a lógica para adicionar, remover e finalizar pedidos. A função checkoutOrder é onde a mensagem do WhatsApp é montada e o número de telefone é definido (const phone = "5511977218265";).
-
-•
-Estilo: O arquivo style.css permite a personalização completa do visual, incluindo cores (variáveis CSS no :root), fontes e a responsividade.
-
-
-
-
-Desenvolvido por Manus AI Data: 17 de Outubro de 2025
-
+Desenvolvido por Diogo Franjosi.
